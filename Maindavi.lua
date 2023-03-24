@@ -1,6 +1,5 @@
 
 
-
 -- create a new ScreenGui instance
 local notificationGui = Instance.new("ScreenGui")
 notificationGui.Enabled = true -- set Enabled to true to show the GUI
@@ -51,9 +50,9 @@ animateNotification()
 local VLib = loadstring(game:HttpGet("https://pastebin.com/raw/Mb49kKTP"))()
 
 
-		MAINTTL = "DAVI HUB V1 made in favela" 
+		MAINTTL = "DAVI HUB V1" 
 
-local win = VLib:Window("daviscripts ðŸ‡§ðŸ‡·", Color3.fromRGB(196, 40, 28))
+local win = VLib:Window("daviscripts", Color3.fromRGB(196, 40, 28))
 
 local ss1 = win:Tab("HOW TO USE")
 local ss = win:Tab("MAIN")
