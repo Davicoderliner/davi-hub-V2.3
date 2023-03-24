@@ -59,8 +59,6 @@ local ss = win:Tab("MAIN")
 local sss = win:Tab("MISC")
 local cred = win:Tab("CREDITS")
 
-local ss1 = Label("go to main to test")
-
 ss1:Button("destruir o gui",function()
 game.CoreGui["Library"]:Destroy()
 end)
