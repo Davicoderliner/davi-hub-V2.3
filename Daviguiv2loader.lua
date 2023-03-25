@@ -1,44 +1,61 @@
 
 
--- create a new ScreenGui instance
-local notificationGui = Instance.new("ScreenGui")
-notificationGui.Enabled = true -- set Enabled to true to show the GUI
-notificationGui.IgnoreGuiInset = true -- set IgnoreGuiInset to true to make the GUI always appear above other UI elements
+-- Define the credit text and duration
+local creditText = "Made by DAVISCRIPT"
+local creditDuration = 3 -- in seconds
 
--- create a new Frame instance to hold the notification message
-local notificationFrame = Instance.new("Frame")
-notificationFrame.Size = UDim2.new(0, 200, 0, 50)
-notificationFrame.Position = UDim2.new(0.5, -100, 1, -50) -- set the initial position below the screen
-notificationFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-notificationFrame.Parent = notificationGui
+-- Define the list of decal IDs to choose from
+local decalIds = {
+    5479567228,
+    5479565074,
+    5479559610,
+}
 
--- create a new TextLabel instance to display the notification text
-local notificationText = Instance.new("TextLabel")
-notificationText.Size = UDim2.new(1, 0, 1, 0)
-notificationText.Position = UDim2.new(0, 0, 0, 0)
-notificationText.BackgroundColor3 = Color3.new(1, 1, 1)
-notificationText.TextColor3 = Color3.new(0, 0, 0)
-notificationText.Text = "espalhe a palavra e fica em silêncio"
-notificationText.Font = Enum.Font.SourceSansBold
-notificationText.FontSize = Enum.FontSize.Size24
-notificationText.TextScaled = true
-notificationText.Parent = notificationFrame
+-- Choose a random decal ID from the list
+local decalId = decalIds[math.random(#decalIds)]
 
--- define a function to animate the notification message
+-- Create the notification GUI
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "NotificationCreditsGui"
+ScreenGui.ResetOnSpawn = false
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
+
+local Frame = Instance.new("Frame")
+Frame.BackgroundTransparency = 1
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(1, -200, 1, -50)
+Frame.Size = UDim2.new(0, 200, 0, 50)
+Frame.Parent = ScreenGui
+
+local Decal = Instance.new("Decal")
+Decal.Texture = "rbxassetid://" .. decalId
+Decal.Face = Enum.NormalId.Back
+Decal.Parent = Frame
+
+local TextLabel = Instance.new("TextLabel")
+TextLabel.BackgroundTransparency = 1
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = creditText
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 16
+TextLabel.Position = UDim2.new(0, 10, 0, 10)
+TextLabel.Size = UDim2.new(1, -20, 1, -20)
+TextLabel.Parent = Frame
+
+-- Function to animate the notification
 local function animateNotification()
-    local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.Out, 0, false, 0)
-    local tween = game:GetService("TweenService"):Create(notificationFrame, tweenInfo, {Position = UDim2.new(0.5, -100, 0.8, -50)})
-    tween:Play()
-    wait(3)
-    tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.Out, 0, false, 0)
-    tween = game:GetService("TweenService"):Create(notificationFrame, tweenInfo, {Position = UDim2.new(0.5, -100, 1, -50)})
-    tween:Play()
-    wait(1)
-    notificationGui:Destroy()
+    -- Move the notification in from the right
+    Frame:TweenPosition(UDim2.new(1, -200, 1, -50), Enum.EasingDirection.InOut, Enum.EasingStyle.Sine, 0.5, true)
+    wait(creditDuration - 1)
+    -- Move the notification out to the left
+    Frame:TweenPosition(UDim2.new(1, 0, 1, -50), Enum.EasingDirection.InOut, Enum.EasingStyle.Sine, 0.5, true)
+    wait(0.5)
+    -- Destroy the GUI
+    ScreenGui:Destroy()
 end
 
--- show the notification message and animate it
-notificationGui.Parent = game.Players.LocalPlayer.PlayerGui
+-- Call the animation function
 animateNotification()
 
 
@@ -399,8 +416,21 @@ end)
 ss:Button("infinite yield", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MjBzRjmT'))()
 end)
-ss:Button("fling gui", function()
-loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
+
+ss:Button("água hd", function()
+loadstring(game:HttpGet(('https://pastefy.ga/xXkUxA0P/raw'),true))()
+end)
+
+ss:Button("natherZ para blox fruit", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/natherzx/Nethez-Project/main/Security'))()
+end)
+
+ss:Button("doors scripts ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Doors"))()
+end)
+
+ss:Button("zeehub", function()
+loadstring(game:HttpGet("https://scriptdee.com/free/ZeeHubNew.lua"))()
 end)
 
 cred:Label("MADE BY davi.scripts")
