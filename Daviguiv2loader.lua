@@ -399,7 +399,9 @@ end)
 ss:Button("infinite yield", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MjBzRjmT'))()
 end)
-
+ss:Button("fling gui", function()
+loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
+end)
 
 cred:Label("MADE BY davi.scripts")
 cred:Label("validated by arceus x | tw.piece zeltales and waza and Ismael")
