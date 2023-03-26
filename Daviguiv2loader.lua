@@ -3,6 +3,95 @@ local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "Credits"
 ScreenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 
+-- Acesse o objeto PlayerGui do jogador local
+local playerGui = game.Players.LocalPlayer.PlayerGui
+
+--contador de vida mais melhor do que o atual
+
+-- Crie uma nova variável para a quantidade de saúde do jogador
+local health = 100
+
+-- Crie uma nova tela GUI para o GUI de saúde
+local healthGui = Instance.new("ScreenGui")
+healthGui.Name = "HealthGui"
+healthGui.Parent = playerGui
+
+-- Crie uma nova moldura para o GUI de saúde
+local healthFrame = Instance.new("Frame")
+healthFrame.Name = "HealthFrame"
+healthFrame.Size = UDim2.new(0, 150, 0, 20)
+healthFrame.Position = UDim2.new(1, -170, 0, 20)
+healthFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+healthFrame.BorderSizePixel = 0
+healthFrame.Parent = healthGui
+
+-- Crie uma nova barra de progresso para o GUI de saúde
+local healthBar = Instance.new("Frame")
+healthBar.Name = "HealthBar"
+healthBar.Size = UDim2.new(1, 0, 1, 0)
+healthBar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+healthBar.BorderSizePixel = 0
+healthBar.Parent = healthFrame
+
+-- Crie uma função para atualizar o GUI de saúde com a quantidade de saúde atual
+local function updateHealthGUI()
+   -- Defina o tamanho da barra de progresso com base na quantidade de saúde atual
+   healthBar.Size = UDim2.new(health / 100, 0, 1, 0)
+end
+
+-- Chame a função de atualização de GUI de saúde uma vez para configurar o GUI inicialmente
+updateHealthGUI()
+
+-- Conecte a função de atualização de GUI de saúde ao evento Changed de saúde, para que a GUI de saúde seja atualizada automaticamente quando a quantidade de saúde mudar
+game.Players.LocalPlayer.Character.Humanoid.HealthChanged:Connect(function(newHealth)
+   health = newHealth
+   updateHealthGUI()
+end)
+
+--contador de fps bonitão
+-- Acesse o objeto PlayerGui do jogador local
+local playerGui = game.Players.LocalPlayer.PlayerGui
+
+-- Crie uma nova tela GUI para o contador de FPS
+local fpsGui = Instance.new("ScreenGui")
+fpsGui.Name = "FpsGui"
+fpsGui.Parent = playerGui
+
+-- Crie uma nova etiqueta para exibir o contador de FPS
+local fpsLabel = Instance.new("TextLabel")
+fpsLabel.Name = "FpsLabel"
+fpsLabel.Size = UDim2.new(0, 100, 0, 20)
+fpsLabel.Position = UDim2.new(0, 20, 0, 20)
+fpsLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+fpsLabel.TextColor3 = Color3.new(1, 1, 1)
+fpsLabel.Font = Enum.Font.SourceSans
+fpsLabel.FontSize = Enum.FontSize.Size14
+fpsLabel.Text = "FPS: "
+fpsLabel.Parent = fpsGui
+
+-- Crie uma variável para armazenar o tempo desde a última atualização
+local lastUpdate = tick()
+
+-- Crie uma variável para armazenar a contagem de quadros por segundo atual
+local fps = 0
+
+-- Crie uma função para atualizar o contador de FPS
+local function updateFpsCounter()
+    -- Calcule o tempo decorrido desde a última atualização
+    local deltaTime = tick() - lastUpdate
+    lastUpdate = tick()
+    
+    -- Calcule a contagem de quadros por segundo atual
+    fps = math.floor(1 / deltaTime)
+    
+    -- Atualize a etiqueta do contador de FPS com a contagem de quadros por segundo atual
+    fpsLabel.Text = "FPS: " .. fps
+end
+
+-- Conecte a função de atualização de FPS ao evento RenderStepped para que ela seja chamada a cada quadro
+game:GetService("RunService").RenderStepped:Connect(updateFpsCounter)
+
+
 -- Create an ImageLabel to display the image
 local ImageLabel = Instance.new("ImageLabel")
 ImageLabel.Name = "Image"
@@ -479,11 +568,14 @@ end)
 ss:Button("zeehub", function()
 loadstring(game:HttpGet("https://scriptdee.com/free/ZeeHubNew.lua"))()
 end)
-
-SS:Button("spy hub", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
+ss:Button("rbx hub ", function()
+loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
 end)
+ss:Button("zeus hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlodyXHub/ZeusHub/main/Loading_Ui"))()
+end)
+
 cred:Label("MADE BY davi.scripts")
 cred:Label("validated by arceus x | tw.piece zeltales and waza and Ismael")
-cred:Label("se quiser fazer video do meu script me marque que eu te coloco na proxima atualizaÃ§Ã£o")
+cred:Label("se quiser fazer video do meu script me marque que eu te coloco na proxima atualização")
 cred:Label(" eu :), obrigada por testa o script  ")
