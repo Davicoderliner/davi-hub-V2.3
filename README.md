@@ -4,7 +4,7 @@
 ### New Improvements:
 1. **Removed FPS Gui:** The FPS Gui has been removed to enhance performance.
 
-2. **Blox Fruit Gui Underrated Util Updated:** The Blox Fruit Gui's underrated util has been updated for better functionality.
+2. **Blox Fruit Gui Underrated Until next update :** The Blox Fruit Gui's underrated until next update
 
 3. **New Load Tabs:** New tabs have been added to improve the user experience.
 
