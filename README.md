@@ -1,32 +1,23 @@
 
-## Davi Hub v2.1 Release Notes
 
-### New Improvements:
-1. **Removed FPS Gui:** The FPS Gui has been removed to enhance performance.
+**Davi Hub 2.2 Beta Release Notes (SOON)**
 
-2. **Blox Fruit Gui Underrated Until next update :** The Blox Fruit Gui's underrated until next update
+We're thrilled to introduce Davi Hub 2.2 Beta, packed with exciting new features and improvements. Here's a sneak peek at what's coming:
 
-3. **New Load Tabs:** New tabs have been added to improve the user experience.
+**New Error Detection**
 
-4. **New Performance:** General performance improvements have been made.
+Davi Hub 2.2 Beta is equipped with enhanced error detection capabilities to ensure a smoother and more reliable experience for all users. Say goodbye to unexpected issues!
 
-5. **New Ping Tab Will Be Fixed:** A new ping tab has been added, and any issues will be addressed in future updates.
+**Two New Scripts**
 
-### Additional Improvements:
-- Various scripts and features have been added to enhance your gaming experience, including scripts for different games and useful utilities.
+We're adding two powerful new scripts to our arsenal, designed to enhance your gameplay and scripting capabilities. These scripts are just the beginning, with more exciting additions on the horizon.
 
-### Settings:
-- You can find settings and contact information in the "Settings" tab.
+**And More Coming**
 
-### Remote Spy:
-- A remote spy feature has been added for advanced users.
+But that's not all! Davi Hub 2.2 Beta is only the beginning of our journey. We have big plans for the future, including additional features, scripts, and improvements that will take your Roblox experience to the next level.
 
-### Server Info:
-- You can now monitor the number of players in the server and check your ping in real-time in the "Server Info" tab.
+Stay tuned for the official release of Davi Hub 2.2 Beta, and get ready to elevate your Roblox adventures like never before. Your feedback and support drive us forward, and we can't wait to share this exciting update with you!
 
-### Infinite Yield:
-- The Infinite Yield script has been included for advanced users who want additional functionality.
+---
 
-Please enjoy using Davi Hub v2.1, and feel free to provide feedback and report any issues on the [Github repository](https://github.com/davicoderliner).
-
-Thank you for choosing Davi Hub for your scripts needs
+Please note that "SOON" indicates the upcoming release date, which you can specify when you have that information.
