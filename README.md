@@ -1,36 +1,32 @@
 
+## Davi Hub v2.1 Release Notes
 
-# Davi Hub V2
+### New Improvements:
+1. **Removed FPS Gui:** The FPS Gui has been removed to enhance performance.
 
-## Version 2.0
+2. **Blox Fruit Gui Underrated Util Updated:** The Blox Fruit Gui's underrated util has been updated for better functionality.
 
-### What's New
+3. **New Load Tabs:** New tabs have been added to improve the user experience.
 
-- Redesigned UI layout using Sentinel library
-- Organized scripts into tabs for easier navigation 
-- Added Blox Fruits tab with popular scripts
-- Added FPS tab to display current FPS
-- Added Settings tab with walkspeed, jumppower, team selection
-- Various performance improvements and bug fixes
+4. **New Performance:** General performance improvements have been made.
 
-This major update overhauls the UI and structure of the hub for a cleaner and more organized experience. Key highlights include:
+5. **New Ping Tab Will Be Fixed:** A new ping tab has been added, and any issues will be addressed in future updates.
 
-- Tabbed interface makes finding scripts easier
-- Special Blox Fruits tab for popular BF scripts 
-- FPS tab lets you monitor game performance
-- Settings tab gives quick access to tweak your character
+### Additional Improvements:
+- Various scripts and features have been added to enhance your gaming experience, including scripts for different games and useful utilities.
 
-Be sure to report any issues or suggestions! More scripts and features coming soon.
+### Settings:
+- You can find settings and contact information in the "Settings" tab.
 
-### Bug Fixes
+### Remote Spy:
+- A remote spy feature has been added for advanced users.
 
-- Fixed FPS label overlapping with other UI elements
-- Script search now works properly when game loads
-- Walkspeed slider adjusts correctly on respawn
+### Server Info:
+- You can now monitor the number of players in the server and check your ping in real-time in the "Server Info" tab.
 
-### Known Issues
+### Infinite Yield:
+- The Infinite Yield script has been included for advanced users who want additional functionality.
 
-- Colorpicker does not save selected color 
-- Dropdown selection resets when rejoining server
+Please enjoy using Davi Hub v2.1, and feel free to provide feedback and report any issues on the [Github repository](https://github.com/davicoderliner).
 
-Let me know if you would like me to modify or expand this release note! I focused on summarizing the key changes and improvements in version 2 of your hub.
+Thank you for choosing Davi Hub for your scripts needs
