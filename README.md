@@ -1,55 +1,34 @@
+# Davi Hub 2.2 (RELEASED)
+
+We are excited to announce the official release of Davi Hub 2.2! This version brings several exciting improvements and new features to enhance your gaming experience.
+
+## What's New
+
+### New Exploits
+- We've updated and enhanced our exploits to provide support for more games and features.
+
+### Enhanced User Interface
+- We've introduced a more efficient and user-friendly user interface.
+
+### Advanced Customization
+- You can now fully customize Davi Hub to your preferences. Choose from a variety of themes, colors, and styles to make the hub unique.
+
+### Thanks to the Community
+- We want to express our thanks to the community for the ongoing support and valuable suggestions.
+
+## How to Use Davi Hub 2.2
+
+To get started with Davi Hub 2.2, follow these steps:
+1. copy the last version of the hub
+2. Run the script in the game.
+3. Enjoy the new features and improvements!
+
+Please remember that the use of this script is your responsibility and should be used in accordance with Roblox's policies.
+
+We look forward to hearing your feedback and continuing to enhance Davi Hub to provide an exceptional experience.
+
+Thank you for choosing Davi Hub!
 
 
-# Davi Hub
 
-Davi Hub is an all-in-one ROBLOX script hub designed to enhance your gameplay. It features a convenient GUI for easily executing scripts and mods.
-
-## Features
-
-- Smooth, modern UI for script execution 
-- Tons of screen gui, admin commands, auto farm, and more
-- Sections for popular games like Pet Simulator X, Anime Fighting Simulator, etc(soon)
-- Server info including player count and ping(soon) 
-- Remote Spy to view events and function calls
-- FPS Unlocker for maximum performance (soon)
-- Safe anti-cheat bypass methods
-- Save and load user configurations
-- Dark mode and custom themes
-- Actively maintained and frequently updated
-
-## Supported Games
-
-Davi Hub aims to support all popular ROBLOX games. Some key titles include:
-
-- Pet Simulator X(soon)
-- Brookhaven RP(soon)
-- Anime Fighting Simulator (soon)
-- Arsenal(soon)
-- Murder Mystery 2(soon)
-- Phantom Forces(soon)
-- Many more!
-
-Let us know if you want support for another game.
-
-## Usage
-
-Using Davi Hub is simple:
-
-1. Execute the script in your preferred exploit.
-
-2. Browse the intuitive tabs and click buttons to run scripts.
-
-3. Configure options like walkspeed and jump power in Settings.
-
-4. Enable Remote Spy to view behind the scenes activity.
-
-5. Unlock your FPS or tweak other optimizations.
-
-6. Save and load presets to quickly switch between games.
-
-7. Enjoy unfair advantages and increased fun!
-
-Check out the Discord server or YouTube channel for additional help. We're always open to new script suggestions and feedback.
-
-Have fun and stay safe!
-
+Davi Hub - Unlocking Gaming Potential on Roblox
