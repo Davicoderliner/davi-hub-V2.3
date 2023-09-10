@@ -1,23 +1,25 @@
+Davi Hub 2.2 - Changelog (Sneak Peek, SOON!)
 
+**New Features and Improvements**
 
-**Davi Hub 2.2 Beta Release Notes (SOON)**
+1. **New Logo**: We've refreshed the look of Davi Hub with a brand-new logo, giving it a modern and sleek appearance.
 
-We're thrilled to introduce Davi Hub 2.2 Beta, packed with exciting new features and improvements. Here's a sneak peek at what's coming:
+2. **Enhanced Settings**: We've introduced a revamped settings section with enhanced customization options for the GUI. You'll have more control over the theme, colors, and UI elements to make Davi Hub truly your own.
 
-**New Error Detection**
+3. **Updated UI Library**: We've integrated a new and improved UI library, providing a smoother and more user-friendly experience. You can expect better performance and an intuitive interface.
 
-Davi Hub 2.2 Beta is equipped with enhanced error detection capabilities to ensure a smoother and more reliable experience for all users. Say goodbye to unexpected issues!
+4. **More Scripts**: Davi Hub 2.2 will come with an expanded selection of scripts, including some highly requested ones. You'll have access to even more game-enhancing features.
 
-**Two New Scripts**
+5. **Bug Fixes**: We've squashed pesky bugs and improved overall stability, ensuring a more reliable and enjoyable user experience.
 
-We're adding two powerful new scripts to our arsenal, designed to enhance your gameplay and scripting capabilities. These scripts are just the beginning, with more exciting additions on the horizon.
+**Upcoming Features**
 
-**And More Coming**
+1. **Advanced Customization**: In future updates, we plan to roll out advanced customization options, allowing you to fine-tune every aspect of the GUI to match your preferences.
 
-But that's not all! Davi Hub 2.2 Beta is only the beginning of our journey. We have big plans for the future, including additional features, scripts, and improvements that will take your Roblox experience to the next level.
+2. **Script Suggestions**: We'll be adding a script suggestion feature, making it easier for you to discover and load scripts that enhance your gaming experience.
 
-Stay tuned for the official release of Davi Hub 2.2 Beta, and get ready to elevate your Roblox adventures like never before. Your feedback and support drive us forward, and we can't wait to share this exciting update with you!
+3. **Improved Performance**: We're constantly working on improving performance to ensure that Davi Hub runs smoothly, even in demanding games.
 
----
+4. **Community Contributions**: We encourage community contributions, so you can expect user-generated content and scripts to be seamlessly integrated into Davi Hub.
 
-Please note that "SOON" indicates the upcoming release date, which you can specify when you have that information.
+Stay tuned for the official release of Davi Hub 2.2! We can't wait to bring you these exciting updates and improvements. Your feedback and support are invaluable to us as we continue to enhance your gaming experience.
