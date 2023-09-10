@@ -1,25 +1,42 @@
-Davi Hub 2.2 - Changelog (Sneak Peek, SOON!)
+# Davi Hub 2.2 Beta (SOON)
 
-**New Features and Improvements**
 
-1. **New Logo**: We've refreshed the look of Davi Hub with a brand-new logo, giving it a modern and sleek appearance.
 
-2. **Enhanced Settings**: We've introduced a revamped settings section with enhanced customization options for the GUI. You'll have more control over the theme, colors, and UI elements to make Davi Hub truly your own.
+We are excited to announce the upcoming release of **Davi Hub 2.2 Beta**, the next evolution of your favorite Roblox script hub! Our team has been hard at work to bring you new features, customization options, and improved performance. Here's a sneak peek of what's coming:
 
-3. **Updated UI Library**: We've integrated a new and improved UI library, providing a smoother and more user-friendly experience. You can expect better performance and an intuitive interface.
+## New Logo 🌟
 
-4. **More Scripts**: Davi Hub 2.2 will come with an expanded selection of scripts, including some highly requested ones. You'll have access to even more game-enhancing features.
+- Say hello to our fresh and modern logo, representing a new era of script hub excellence.
 
-5. **Bug Fixes**: We've squashed pesky bugs and improved overall stability, ensuring a more reliable and enjoyable user experience.
+## Enhanced Customization 🎨
 
-**Upcoming Features**
+- Personalize your Davi Hub experience with advanced customization options. Tailor the theme, fonts, and more to match your style.
 
-1. **Advanced Customization**: In future updates, we plan to roll out advanced customization options, allowing you to fine-tune every aspect of the GUI to match your preferences.
+## Updated UI Library 📊
 
-2. **Script Suggestions**: We'll be adding a script suggestion feature, making it easier for you to discover and load scripts that enhance your gaming experience.
+- We've integrated a cutting-edge UI library for a seamless and intuitive user interface.
 
-3. **Improved Performance**: We're constantly working on improving performance to ensure that Davi Hub runs smoothly, even in demanding games.
+## New Tabs and Features 📁
 
-4. **Community Contributions**: We encourage community contributions, so you can expect user-generated content and scripts to be seamlessly integrated into Davi Hub.
+- Explore new tabs and features to expand your script arsenal. From game enhancements to utility scripts, we've got you covered.
 
-Stay tuned for the official release of Davi Hub 2.2! We can't wait to bring you these exciting updates and improvements. Your feedback and support are invaluable to us as we continue to enhance your gaming experience.
+## Error Detection ⚠️
+
+- Davi Hub is now smarter than ever! We've implemented an error detector to catch issues in your scripts and provide you with valuable feedback.
+
+## And More... 🚀
+
+- We're keeping some surprises up our sleeves. Stay tuned for additional features and improvements in the 2.2 Beta release.
+
+## Get ready for an unparalleled scripting experience with Davi Hub 2.2 Beta!
+
+Stay tuned for the official release date and be among the first to elevate your Roblox exploiting to new heights. Thank you for your continued support!
+
+
+
+Stay connected with us on our social media channels to get the latest updates, sneak peeks, and exclusive content:
+
+- [Discord](https://discord.gg/xEaH6vE3xb)
+- [GitHub](https://github.com/davicoderliner)
+
+We can't wait to share this exciting update with you. Get ready to script like never before!
